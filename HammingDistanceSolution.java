@@ -1,4 +1,4 @@
-public class Solution {
+public class HammingDistanceSolution {
     public int hammingDistance(int x, int y) {
         //x和y 异或运算 结果转成二进制 计算二进制数里1的数量
         String bin=Integer.toBinaryString(x^y);
